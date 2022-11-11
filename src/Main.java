@@ -29,5 +29,15 @@ for (N=10; N>=1;){System.out.print(N-- +" ");}
         }
         System.out.println(Y);
 
+
+        System.out.println("ДЗ-2. Задание 1");
+        int dep=15000;
+        double percent=0.07;
+        float sum=0;
+        int month=1;
+        while(sum<=12_000_000){sum= (float) ((sum+dep)*(1+percent));
+            System.out.println("Месяц "+month+++", сумма накоплений равна "+sum+" рублей");}
+
+
     }
 }
