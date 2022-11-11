@@ -12,6 +12,15 @@ while(total < 2_459_000){
 
         System.out.println("ДЗ-1. Задание 2");
 
+    int N=1;
+       while (N<=10) {
+           System.out.print(N++ +" ");}
+           System.out.println();
+for (N=10; N>=1;){System.out.print(N-- +" ");}
+        System.out.println();
+
+        System.out.println("ДЗ-1. Задание 3");
+
 
 
     }
