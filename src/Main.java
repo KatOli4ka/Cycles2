@@ -81,13 +81,11 @@ public class Main {
 
         System.out.println("ДЗ-3. Задание 1");
 int now=2022;
-int past=1822;
-int future=2122;
-int dif=future-past;
 for (int comet = 0; comet <= now; comet = comet + 79)
 
-
 {System.out.println(comet);}
+
+
 
         System.out.println("ДЗ-3. Задание 2");
 int number=2;
