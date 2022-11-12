@@ -51,5 +51,19 @@ for (N=10; N>=1;){System.out.print(N-- +" ");}
             System.out.println("Месяц "+month1+", сумма накоплений равна "+sum1+" рублей");}
             month1++;}
 
+
+        System.out.println("ДЗ-2. Задание 3");
+        int dep2=15000;
+        double percent2=0.07;
+        float sum2=0;
+        for ( int month2=1;month2<=108;)
+        {sum2= (float) ((sum2+dep2)*(1+percent2));
+            if(month2%6==0){
+                System.out.println("Месяц "+month2+", сумма накоплений равна "+sum2+" рублей");}
+            month2++;}
+
+
+
+
     }
 }
