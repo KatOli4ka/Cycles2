@@ -73,28 +73,35 @@ public class Main {
         }
 
         System.out.println("ДЗ-2. Задание 4");
-        int friday = 2;
-        for (int day = 1; day <= 31; day++) {
-            if (day % 7 == 0)
-                System.out.println("Сегодня пятница " + day + "-е число. Необходимо подготосить отчет");
+        int friday = 5;
+        while (friday <= 31) {
+            System.out.println("Сегодня пятница " + friday + "-е число. Необходимо подготовить отчет");
+            friday += 7;
         }
 
         System.out.println("ДЗ-3. Задание 1");
-int now=2022;
-for (int comet = 0; comet <= now; comet = comet + 79)
-
-{System.out.println(comet);}
-
-
-
-        System.out.println("ДЗ-3. Задание 2");
-int number=2;
-for(int count=1;count<=10;count++){
-    System.out.println(number + " * " + count + " = "+ number * count);}
-
+        int passingComet = 79;
+        int now = 2022;
+        int past = now - 200;
+        int future = now + 100;
+        int data = 0;
+        while (data <= now) {
+            data = data + passingComet;
+            if (data >= past && data <= future) {
+                System.out.println(data);
+            }
 
         }
+
+        System.out.println("ДЗ-3. Задание 2");
+        int number = 2;
+        for (int count = 1; count <= 10; count++) {
+            System.out.println(number + " * " + count + " = " + number * count);
+        }
+
+
     }
+}
 
 
 
